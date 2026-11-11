@@ -1,5 +1,7 @@
 # Midnight Heist: Pixeland Arcade
 
+![Portada de Midnight Heist: Pixeland Arcade](cover.png)
+
 Juego arcade de sigilo y laberintos en pixel art, hecho con **un solo archivo HTML** y **cero assets**: todo (escenarios, personajes, luces y sonido) se genera con código en el navegador.
 
 ## Jugar
