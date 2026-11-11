@@ -19,12 +19,19 @@ Luego visita <http://localhost:8080>.
 - **R**: reiniciar el nivel
 - **Enter**: empezar / continuar
 
+## Mecánicas principales
+
+- **Visibilidad limitada:** el laberinto está a oscuras. El jugador y los guardias (máximo 6 por nivel) usan linternas con conos de luz dinámicos que las paredes bloquean. Entrar en el haz de un guardia inicia una persecución.
+- **Sigilo 100% efectivo:** al esconderte en un escondite temático eres **completamente indetectable**: los guardias no pueden verte, re-adquirirte ni capturarte mientras permanezcas oculto. La única excepción es que un guardia te haya visto entrar directamente; en ese caso irá al escondite y te descubrirá. Si te escondes sin ser visto, cualquier persecución o búsqueda activa se cancela.
+- **Patrullaje independiente y constante:** cada guardia elige y recorre su propia ruta por el laberinto, con objetivos y tiempos independientes. Los guardias siguen patrullando aunque el jugador esté completamente quieto.
+- **Cajas sorpresa (70/30):** cada caja tiene un **70% de probabilidad de dar un bonificador** (velocidad x2, invisibilidad temporal o guardias paralizados) y un **30% de probabilidad de dar una penalización** (controles invertidos, linterna apagada 10 segundos o alerta de ruido que atrae a los guardias).
+- **Gallinas y llave:** roba las **3 gallinas blancas** para que aparezca la llave; recógela y llega a la puerta. Las **6 gallinas de oro** dan puntos extra y, si reúnes las 6, la llave y la salida brillan a través de la oscuridad.
+- **Límite de tiempo:** **300 segundos** por nivel; si se agotan, la captura es automática.
+
 ## Objetivo
 
-- Roba las **3 gallinas blancas** para que aparezca la llave.
-- Recoge la llave y llega a la puerta antes de que terminen los **300 segundos**.
-- Las **6 gallinas de oro** dan puntos extra; si las reúnes todas, la llave y la salida brillan a través de la oscuridad.
-- Cada nivel tiene guardias con linterna y conos de visión, escondites temáticos y 6 cajas sorpresa (50% bonus / 50% penalización).
+- Roba las 3 gallinas blancas, consigue la llave y escapa por la puerta antes de que termine el tiempo.
+- Reúne las 6 gallinas de oro para activar la guía luminosa hacia la salida.
 
 ## Los 10 niveles
 
